@@ -10,6 +10,8 @@ namespace HashTable1
     {
         private readonly int Num_Buckets;
         readonly List<Linked_List<K, V>> Bucket_List;
+        public StringBuilder Result;
+
 
         public LinkedHashMap(int Num_Buckets)
         {
